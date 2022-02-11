@@ -1,0 +1,61 @@
+command : echo "hello"	//for printing just like php print statement
+command : date	//for printing current date in powershell window
+command : date -u	//for utc time
+command : say "hii"	//this command is working only MAC for pronouncing anything using speaker its not working in windows system
+command : killall notepad	//for close anything but its not working for windows system its working for MAC
+command : cal 02 1995	//for printing calendar syntax: cal month year
+command : whoami	//for knowing current admin name
+command : ls	//for knowing how many file in current directory same as dir command
+command : ls folderName	//for knowing how many file in given foldername
+command : ls A*		//it will return all folder name which is start from A letter
+command : ls -la folderName	//its not working for windows system
+command : ls -l	//its not working for windows system
+command : ls -a	//its not working for windows system
+command : ls -R .	//its not working for windows system
+command : which java	//it will return your java path if it is present
+command : pwd	//for knowing present working directory
+command : file fileName	//for knowing which type of file it is whether a txt file, jpg file, etc.
+command : open fileName	//for open file in MAC its not working for windows system
+command : start fileName	//for open file in windows system
+command : mkdir directoryName	//for creating directory
+command : mkdir directoryName1,directoryName2,.....etc	//for creating multiple directory at same time
+command : touch fileName.extension	//for creating file for ex: touch a.txt
+command : touch filName1.extension filName2.extension etc	//for creating multiple file at same time
+command : nano fileName.extension	//for open file in comsole and can read and write also
+command : cat fileName.extension	//for watching content of a file in console
+command : mv fileName.extension changeFileName	//for move or rename the filename
+command : mv fileName.extension folderName/directoryName	//for moving file to a specific folder or directory
+command : mv directoryName1 directoryName2	//its not working for windows system for ex: mv folder1 folder2
+command : xcopy directoryName1 directoryName2	//its working for windows system
+command : cp fileName.extension directoryName	//for copying file to a given directory
+command : cp *.extension directory	//for copying all file with having same extension to a given directory
+command : cp *.txt *.xls directoryName/		//for copying multiple file in particular directory
+command : rm fileName/directoryName	//for removing or deleting file or directory
+command : rm -R *	//for removing all file in current directory which having read access but its not working for windows system
+command : rm folderName/*	//for deleting all files in folder
+command : rm folderName/*.extension		//for deleting all files having same extension
+command : rm -R a.txt,b.txt		//for removing multiple file at once
+command : pipe is not working in windows system
+command : tail -f c:/windows/windowsupdate.log		//for looking windows log file
+command : find .	//for looking all files in MAC its not working for windows system
+command : ForFiles /s /d -2 /c "cmd /c del @file"	//for deleting file which is older than 2 days
+command : sudo rm directoryName	//this will work only for MAC not for windows machine it will delete directory without asking any permission because sudo is for superuser.
+command : chmod	//its not working properly in windows system with the help of this you can change user permission in MAC system
+command :  $myvar = 7	//this is the way to declaring variable in powershell windows its working for windows system with $ symbol
+command : echo $myvar	//it will print myvar variable value
+command : echo $HOME	//it will show your current home user path
+command : echo $USER and echo $path		//it is not working in windows system
+command : echo "$(date)"	//it will print current date
+command : $s=$(pwd)	//asign present working directory path to a variable
+command : echo $s	//it will print pwd directory path
+command : read -p "type your age: "	age	//it will not work for windows system it will use for taking input from the user in console window like Scanner does in java
+command : echo "hello world">fileName.extension	//the " > " symbol erase the content and then add the desired string
+command : if [ condition ]; then	//if statement and relational condition is written inside square brackets
+command : fi	//its for closing if so we need to write reverse of if
+
+example : if [3 >= 2]; then   or if [3 -ge 3]; then
+			echo "number is greater than 2"
+		  fi
+		  
+command : cmd /k	//This is used for holding the console window just like a getch() function in c language
+command : 
