@@ -7,8 +7,12 @@ import java.util.zip.ZipOutputStream;
 
 public class ZipFolder {
     public static void main(String[] args) {
-        String folderPath = "C:/Users/Rishabh/Desktop/reports"; // Specify the path to the folder you want to zip
-        String zipFilePath = "C:/Users/Rishabh/Desktop/reports.zip"; // Specify the path for the output zip file
+
+	// Specify the path to the folder you want to zip
+    	String folderPath = "C:/Users/Rishabh/Desktop/reports";
+        
+	// Specify the path for the output zip file
+	String zipFilePath = "C:/Users/Rishabh/Desktop/reports.zip";
 
         try {
             zipFolder(folderPath, zipFilePath);
